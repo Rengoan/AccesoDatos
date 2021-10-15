@@ -7,5 +7,6 @@ public class Test {
     public static void main(String[] args) {
 
         IAccesoDatos datos = new ImplementacionMysql();
+        IAccesoDatos datos2 = new ImplementacionOracle();
     }
 }
